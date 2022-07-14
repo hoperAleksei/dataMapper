@@ -1,0 +1,16 @@
+{
+  "name": "aleksei/sql2",
+  "description": "null",
+  "minimum-stability": "stable",
+  "license": "opensource",
+  "authors": [
+    {
+      "name": "Aleksei",
+      "email": "pavlov.ase@studenst.dvfu.ru"
+    }
+  ],
+  "require": {
+    "php": "7.4.*",
+    "twig/twig": "^3.0"
+  }
+}

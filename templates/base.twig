@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Active record</title>
+</head>
+<body>
+
+<form method="get">
+    <input type="text" name="id"> <label for="id">ID</label>
+    <textarea name="message"></textarea> <label for="message">Message</label>
+    <input type="radio" name="type" value="insert"> <label for="insert">Insert</label>
+    <input type="radio" name="type" value="delete"> <label for="delete">Delete</label>
+    <input type="radio" name="type" value="search"> <label for="search">Search</label>
+    <input type="submit" value="execute">
+
+</form>
+<table>
+    {% block table %}
+    {% endblock %}
+</table>
+
+</body>
+</html>

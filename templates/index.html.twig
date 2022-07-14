@@ -1,0 +1,10 @@
+{% extends 'base.twig' %}
+
+{% block table %}
+    {% for d in data %}
+        <tr>
+            <td>{{ d.id }}</td>
+            <td>{{ d.message }}</td>
+        </tr>
+    {% endfor %}
+{% endblock %}
